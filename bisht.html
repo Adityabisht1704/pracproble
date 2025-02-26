@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT Entrance Quiz</title>
+    <link rel="stylesheet" href="bisht.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Section -->
+        <section id="login-section" class="section">
+            <h1>VIT Entrance Quiz</h1>
+            <p class="instructions">Only students with a VIT email can participate.</p>
+            <form id="login-form">
+                <label for="email">Enter your VIT Email:</label>
+                <input type="email" id="email" required placeholder="name@vit.ac.in">
+                <button type="submit">Start Quiz</button>
+            </form>
+            <div id="login-error" class="error-message"></div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz-section" class="section hidden">
+            <h2 id="round-title"></h2>
+            <p class="timer">Time left: <span id="time">00:00</span></p>
+            <div id="question-container"></div>
+            <button id="next-btn">Next</button>
+        </section>
+
+        <!-- Result Section -->
+        <section id="result-section" class="section hidden">
+            <h2>Quiz Completed!</h2>
+            <p id="score-display"></p>
+            <p id="admission-display"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </section>
+    </div>
+
+    <script src="bisht.js"></script>
+</body>
+</html>

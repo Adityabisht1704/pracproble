@@ -1,0 +1,16 @@
+<!ELEMENT quiz (round+)>
+<!ELEMENT round (question+)>
+<!ATTLIST round 
+    id ID #REQUIRED 
+    title CDATA #REQUIRED 
+    time CDATA #REQUIRED 
+    marks CDATA #REQUIRED>
+
+<!ELEMENT question (text, option*, answer, image?)>
+<!ATTLIST question 
+    id ID #REQUIRED>
+
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT option (#PCDATA)>
+<!ELEMENT answer (#PCDATA)>
+<!ELEMENT image (#PCDATA)>  <!-- Added for logo identification questions -->

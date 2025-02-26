@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "bisht.dtd">
+<quiz>
+
+    <!-- Round 1: General Science -->
+    <round id="1" title="General Science" time="15" marks="20">
+        <question id="q1">
+            <text>What is the hardest natural substance on Earth?</text>
+            <option>A. Gold</option>
+            <option>B. Iron</option>
+            <option>C. Diamond</option>
+            <option>D. Silver</option>
+            <answer>C</answer>
+        </question>
+        <question id="q2">
+            <text>Which gas do plants absorb from the atmosphere?</text>
+            <option>A. Oxygen</option>
+            <option>B. Hydrogen</option>
+            <option>C. Nitrogen</option>
+            <option>D. Carbon Dioxide</option>
+            <answer>D</answer>
+        </question>
+    </round>
+
+    <!-- Round 2: General Knowledge -->
+    <round id="2" title="General Knowledge" time="15" marks="10">
+        <question id="q1">
+            <text>Which country is known as the Land of the Rising Sun?</text>
+            <option>A. China</option>
+            <option>B. Japan</option>
+            <option>C. South Korea</option>
+            <option>D. Thailand</option>
+            <answer>B</answer>
+        </question>
+        <question id="q2">
+            <text>Who was the first person to step on the moon?</text>
+            <option>A. Buzz Aldrin</option>
+            <option>B. Yuri Gagarin</option>
+            <option>C. Neil Armstrong</option>
+            <option>D. Michael Collins</option>
+            <answer>C</answer>
+        </question>
+    </round>
+
+    <!-- Round 3: Logo Identification -->
+    <round id="3" title="Logo Identification" time="8" marks="20">
+        <question id="q1">
+            <text>Which brand has a swoosh logo?</text>
+            <option>A. Adidas</option>
+            <option>B. Nike</option>
+            <option>C. Puma</option>
+            <option>D. Reebok</option>
+            <answer>B</answer>
+        </question>
+        <question id="q2">
+            <text>Which company's logo features a golden arch?</text>
+            <option>A. Burger King</option>
+            <option>B. Subway</option>
+            <option>C. McDonald's</option>
+            <option>D. Domino's</option>
+            <answer>C</answer>
+        </question>
+    </round>
+
+</quiz>
